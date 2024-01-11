@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto sans-serif;
+}
+
+.img-container {
+    position: relative;
+    background-image: url("./img/theater-image-background.png");
+    width: 100dvw;
+    height: 50dvh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+}
+
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.featured-shows {
+    color: rgb(234, 234, 234);
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+}
+
+.featered-shows-container {
+    display: flex; 
+    height: 100%;
+    align-items: center;
+}
+
+nav {
+    color: rgb(234, 234, 234);
+}
+
+.nav-links > li {
+    align-self: center;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.721);
+    background-color: rgba(218, 218, 218, 0.055);
+    border-radius: 5px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin: 4em;
+}
+
+.info {
+    padding-bottom: 20px;
+}
+
+.info-container {
+    margin-right: 100px;
+}
+
+.date-header-container {
+    background-color: rgba(194, 192, 192, 0.122);
+    width: 80%;
+    display: flex;
+    padding: 3em;
+    /* border: 1px solid black; */
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.327);
+    padding: 5px;
+}
+
+.date-header {
+    padding-left: 3rem;
+
+}
+
+button {
+    width: 20%;
+    padding: 1rem; 
+    align-self: center;
+    background-color: hsl(53, 100%, 50%);
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 5px rgba(74, 74, 74, 0.645);
+    cursor: pointer;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+button:hover {
+    transform: translateY(4px);
+    transition: 500ms;
+    background-color: hsla(53, 100%, 50%, 0.803);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5em 0;
+    gap: 3em;
+}
+
+.google-maps {
+    height: 200px;
+    width: 300px;
+}
+
+.footer-cards {
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+}
+
+.footer-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+h4 {
+    font-weight: bolder;
+    font-size: 1.75em;
+}
+
+.icon {
+    padding-right: 10px;
+    color: orange;
+    font-size: 20px;
+}
+
