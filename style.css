@@ -66,7 +66,7 @@ li {
     display: flex;
     justify-content: center;
     gap: 3em;
-    padding: 10px;
+    padding: 50px;
     border-bottom: 1px solid black;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.721);
     background-color: rgba(218, 218, 218, 0.055);
@@ -121,7 +121,7 @@ button {
 button:hover {
     transform: translateY(4px);
     transition: 500ms;
-    background-color: hsla(53, 100%, 50%, 0.803);
+    background-color: hsl(49, 100%, 55%);
 }
 
 footer {
